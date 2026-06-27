@@ -24,16 +24,17 @@ jobs:
           repositories_affiliations: owner, collaborator
           config_display: large
           config_timezone: Asia/Calcutta
+          
+          # Changes the base to a modern dim-blue palette theme
           config_theme: github-dark-dimmed
-
-          # INJECTING CUSTOM BLUE STYLING OVER THE ISOMETRIC BLOCKS
+          
+          # Force the 2D SVG vector engine to override greens with crisp blues
           config_custom_css: |
-            .isocalendar .fill-0 { fill: #e1f5fe !important; }
-            .isocalendar .fill-1 { fill: #81d4fa !important; }
-            .isocalendar .fill-2 { fill: #4fc3f7 !important; }
-            .isocalendar .fill-3 { fill: #0288d1 !important; }
-            .isocalendar .fill-4 { fill: #01579b !important; }
-            .isocalendar text { fill: #81d4fa !important; }
+            .calendar .color-calendar-graph-day-bg { fill: #e1f5fe !important; }
+            .calendar .color-calendar-graph-day-L1-bg { fill: #81d4fa !important; }
+            .calendar .color-calendar-graph-day-L2-bg { fill: #4fc3f7 !important; }
+            .calendar .color-calendar-graph-day-L3-bg { fill: #0288d1 !important; }
+            .calendar .color-calendar-graph-day-L4-bg { fill: #01579b !important; }
           
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -44,9 +45,10 @@ jobs:
           plugin_introduction: yes
           plugin_introduction_title: yes
           
-          # Isometric contribution grid configurations
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # DISABLING ISOMETRIC 3D & ENABLING FLUID 2D CALENDAR
+          plugin_isocalendar: no
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
           
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
