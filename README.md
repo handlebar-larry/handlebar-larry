@@ -31,8 +31,8 @@ Fresh Grad Electrical Engineering student at NIT Raipur (Class of 2026), deeply 
 ### 📊 GitHub Analytics
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent" alt="Aditya's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=transparent" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=handlebar-larry&show_icons=true&theme=transparent" alt="Aditya's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=handlebar-larry&layout=compact&theme=transparent" alt="Top Languages" height="150" />
 </p>
 
 ---
