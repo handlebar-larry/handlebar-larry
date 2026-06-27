@@ -1,12 +1,12 @@
 <h1 align="center">Hey Everyone! 👋, I'm Aditya</h1>
-<h3 align="center">// throughout the heavens and the earth i alone am the honored one</h3>
+<h3 align="center">The most honoured and disgraced one.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=handlebar-larry&label=Profile%20views&color=0e75b6&style=flat" alt="handlebar-larry" /> </p>
 
-- 👷 <samp>Currently pursuing B.Tech in Electrical Engineering (2022-2026) from National Institute of Technology Raipur</samp>
+- 👷 <samp>Graduated with B.Tech in Electrical Engineering (2022-2026) from National Institute of Technology Raipur</samp>
 - 🔭 <samp>Former Problem Setter & MTS Intern at GeeksforGeeks</samp>
-- 💬 <samp>Ask me about CP / MERN Stack / React Native / Advanced Algorithms</samp>
+- 💬 <samp>Lets chat about CP / MERN Stack / React Native / Advanced Algorithms</samp>
 - 🌱 <samp>Incoming Software Engineer II at HCLSoftware</samp>
-- ⚡ <samp>Fun fact: I evaluate UI development entirely through user adoption as a technical validator.</samp>
+- ⚡ <samp>I evaluate UI development entirely through user adoption as a technical validator.</samp>
 
 <h3><b><samp>Connect with Me</samp></b></h3>
 
