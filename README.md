@@ -55,11 +55,11 @@
 
 <hr>  
 
-## 🌌 3D Contribution Graph
+## Contribution Heat Map
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" width="100%">
 </p>
 
-### <samp>📈 Github Stats</samp>
+### <samp>Github Stats</samp>
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="100%">
