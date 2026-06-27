@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Update every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -21,61 +21,37 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          #########################################
-          ## USER
-          #########################################
-
           user: handlebar-larry
-
-          #########################################
-          ## GENERAL
-          #########################################
 
           template: classic
           base: header, activity, community, repositories, metadata
 
           config_timezone: Asia/Kolkata
           config_display: large
-
-          # Beautiful blue theme
           config_theme: cobalt
 
           repositories_forks: yes
           repositories_affiliations: owner, collaborator
 
-          #########################################
-          ## ACHIEVEMENTS
-          #########################################
+          ####################################################
+          ## Introduction
+          ####################################################
+
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+
+          ####################################################
+          ## Achievements
+          ####################################################
 
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
 
-          #########################################
-          ## INTRODUCTION
-          #########################################
-
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-
-          #########################################
-          ## FOLLOW-UP
-          #########################################
-
-          plugin_followup: yes
-          plugin_followup_sections: repositories,user
-
-          #########################################
-          ## CALENDAR
-          #########################################
-
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-
-          #########################################
-          ## LANGUAGES
-          #########################################
+          ####################################################
+          ## Languages
+          ####################################################
 
           plugin_languages: yes
           plugin_languages_sections: most-used
@@ -84,56 +60,71 @@ jobs:
           plugin_languages_categories: programming,markup
           plugin_languages_recent_days: 30
           plugin_languages_recent_load: 500
-          plugin_languages_analysis_timeout: 30
 
-          #########################################
-          ## HABITS
-          #########################################
+          ####################################################
+          ## Habits
+          ####################################################
 
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
 
-          #########################################
-          ## NOTABLE REPOSITORIES
-          #########################################
+          ####################################################
+          ## Calendar
+          ####################################################
+
+          plugin_calendar: no
+
+          ####################################################
+          ## Skyline
+          ####################################################
+
+          plugin_skyline: yes
+          plugin_skyline_year: current-year
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 1
+
+          ####################################################
+          ## Follow-up
+          ####################################################
+
+          plugin_followup: yes
+          plugin_followup_sections: repositories,user
+
+          ####################################################
+          ## Notable
+          ####################################################
 
           plugin_notable: yes
           plugin_notable_from: owner
 
-          #########################################
-          ## PEOPLE
-          #########################################
+          ####################################################
+          ## People
+          ####################################################
 
           plugin_people: yes
-          plugin_people_types: followers,following
           plugin_people_limit: 24
           plugin_people_size: 32
+          plugin_people_types: followers,following
 
-          #########################################
-          ## STARS
-          #########################################
+          ####################################################
+          ## Stars
+          ####################################################
 
           plugin_stars: yes
           plugin_stars_limit: 4
 
-          #########################################
-          ## STARGAZERS
-          #########################################
+          ####################################################
+          ## Stargazers
+          ####################################################
 
           plugin_stargazers: yes
 
-          #########################################
-          ## TOPICS
-          #########################################
+          ####################################################
+          ## Topics
+          ####################################################
 
           plugin_topics: yes
           plugin_topics_limit: 20
           plugin_topics_mode: starred
-
-          #########################################
-          ## SKYLINE
-          #########################################
-
-          plugin_skyline: no
