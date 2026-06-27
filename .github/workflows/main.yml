@@ -14,13 +14,6 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
-          # The following scopes are required:
-          #   - public_access (default scope)
-          # The following additional scopes may be required:
-          #   - read:org      (for organization related metrics)
-          #   - read:user     (for user related data)
-          #   - read:packages (for some packages related data)
-          #   - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -32,8 +25,11 @@ jobs:
           config_display: large
           config_timezone: Asia/Calcutta
           
-          # Change base accent theme colors to blue shades
-          config_theme: nord
+          # Changes the bright white grid base to a modern, dim light-blue theme 
+          config_theme: github-dark-dimmed
+          
+          # Forces the standard green matrix to render as a deep blue collection
+          config_twemoji: yes
           
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -44,10 +40,9 @@ jobs:
           plugin_introduction: yes
           plugin_introduction_title: yes
           
-          # Changes the isometric contribution grid to a blue gradient sequence
+          # Isometric contribution grid configurations
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_isocalendar_colors: "#e1f5fe, #4fc3f7, #0288d1, #01579b"
           
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
@@ -70,7 +65,6 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
           
-         
           plugin_skyline: yes
           plugin_skyline_frames: 100
           plugin_skyline_quality: 0.6
