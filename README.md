@@ -8,8 +8,6 @@
   <img src="https://img.shields.io/badge/Incoming_SWE_II-HCLSoftware-orange?style=for-the-badge&logo=hcl&logoColor=white" />
 </p>
 
----
-
 <h3><b><samp>🏆 Competitive Programming</samp></b></h3>
 
 <p align="left">
@@ -24,36 +22,32 @@
   </a>
 </p>
 
----
-
 <h3><b><samp>🛠️ Skills and Languages</samp></b></h3>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,react,nodejs,mongodb&theme=circle" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,react,nodejs,mongodb&theme=circle" />
+  </a>
 </p>
-
----
 
 <h3><b><samp>⚙️ Tools and Platforms</samp></b></h3>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=circle" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=circle" />
+  </a>
 </p>
-
----
 
 <h3><b><samp>🤝 Connect with Me</samp></b></h3>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/oxidisingojha" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin&theme=circle" />
-  </a>
+  </a>&nbsp;
   <a href="https://github.com/handlebar-larry" target="_blank">
     <img src="https://skillicons.dev/icons?i=github&theme=circle" />
   </a>
 </p>
-
-<hr>  
 
 ### <samp>📈 Github Stats</samp>
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="100%">
