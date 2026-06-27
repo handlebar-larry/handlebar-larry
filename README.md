@@ -25,10 +25,10 @@
   <a href="https://leetcode.com/oxidisingojha" target="_blank">
     <img src="https://img.icons8.com/?size=50&id=qVAmFIlB2tHI&format=png&color=000000" alt="LeetCode" width="42" height="42" />
   </a>&nbsp;
-  <a href="https://codeforces.com/profile/handlebar-larry" target="_blank">
+  <a href="https://codeforces.com/profile/oxidisingojha" target="_blank">
     <img src="https://img.icons8.com/?size=50&id=cX70lo7D7ExO&format=png&color=000000" alt="Codeforces" width="42" height="42" />
   </a>&nbsp;
-  <a href="https://www.codechef.com/users/handlebar-larry" target="_blank">
+  <a href="https://www.codechef.com/users/oxidisingojha" target="_blank">
     <img src="https://img.icons8.com/?size=50&id=LnZMjt9rZC3d&format=png&color=000000" alt="CodeChef" width="42" height="42" />
   </a>
 </p>
