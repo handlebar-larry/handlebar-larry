@@ -3,9 +3,9 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=handlebar-larry&label=Profile%20views&color=0e75b6&style=flat" alt="handlebar-larry" /> </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NIT_Raipur-EE_2026-blue?style=flat-square&logo=education&logoColor=white" />
-  <img src="https://img.shields.io/badge/Former_MTS_Intern-GeeksforGeeks-green?style=flat-square&logo=geeksforgeeks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Incoming_SWE_II-HCLSoftware-orange?style=flat-square&logo=hcl&logoColor=white" />
+  <img src="https://img.shields.io/badge/NIT_Raipur-EE_2026-blue?style=for-the-badge&logo=education&logoColor=white" />
+  <img src="https://img.shields.io/badge/Former_MTS_Intern-GeeksforGeeks-green?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Incoming_SWE_II-HCLSoftware-orange?style=for-the-badge&logo=hcl&logoColor=white" />
 </p>
 
 ---
@@ -14,13 +14,13 @@
 
 <p align="left">
   <a href="https://leetcode.com/oxidisingojha" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Guardian_2203-FFA116?style=flat-square&logo=leetcode&logoColor=black" />
+    <img src="https://img.shields.io/badge/LeetCode-Guardian_2203-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   <a href="https://codeforces.com/profile/handlebar-larry" target="_blank">
-    <img src="https://img.shields.io/badge/Codeforces-Expert_1666-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" />
+    <img src="https://img.shields.io/badge/Codeforces-Expert_1666-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
   </a>
   <a href="https://www.codechef.com/users/handlebar-larry" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-5★_2012-5B4638?style=flat-square&logo=codechef&logoColor=white" />
+    <img src="https://img.shields.io/badge/CodeChef-5★_2012-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@
 <h3><b><samp>🛠️ Skills and Languages</samp></b></h3>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,react,nodejs,mongodb" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,react,nodejs,mongodb&theme=circle" />
 </p>
 
 ---
@@ -37,7 +37,7 @@
 <h3><b><samp>⚙️ Tools and Platforms</samp></b></h3>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=circle" />
 </p>
 
 ---
@@ -46,10 +46,10 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/oxidisingojha" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=circle" />
   </a>
   <a href="https://github.com/handlebar-larry" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" />
+    <img src="https://skillicons.dev/icons?i=github&theme=circle" />
   </a>
 </p>
 
