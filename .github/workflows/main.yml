@@ -24,12 +24,16 @@ jobs:
           repositories_affiliations: owner, collaborator
           config_display: large
           config_timezone: Asia/Calcutta
-          
-          # Changes the bright white grid base to a modern, dim light-blue theme 
           config_theme: github-dark-dimmed
-          
-          # Forces the standard green matrix to render as a deep blue collection
-          config_twemoji: yes
+
+          # INJECTING CUSTOM BLUE STYLING OVER THE ISOMETRIC BLOCKS
+          config_custom_css: |
+            .isocalendar .fill-0 { fill: #e1f5fe !important; }
+            .isocalendar .fill-1 { fill: #81d4fa !important; }
+            .isocalendar .fill-2 { fill: #4fc3f7 !important; }
+            .isocalendar .fill-3 { fill: #0288d1 !important; }
+            .isocalendar .fill-4 { fill: #01579b !important; }
+            .isocalendar text { fill: #81d4fa !important; }
           
           plugin_achievements: yes
           plugin_achievements_display: detailed
