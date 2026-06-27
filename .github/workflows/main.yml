@@ -1,0 +1,32 @@
+name: Metrics
+on:
+  # Schedule updates every hour
+  schedule: [{cron: "0 * * * *"}]
+  # Allows manual triggers
+  workflow_dispatch:
+  # Triggers when you push updates to your main file
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Standard auto-generated token to write the file back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Your Account configurations
+          user: handlebar-larry
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          
+          # Custom Language Card parameters
+          plugin_languages: yes
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
