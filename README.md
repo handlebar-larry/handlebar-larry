@@ -1,5 +1,5 @@
 <h1 align="center">Aditya Ojha</h1>
-<h3 align="center">Daijōbu, boku saikyō dakara ~ Gojoat</h3>
+<h3 align="center"></h3>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=handlebar-larry&label=Profile%20views&color=0e75b6&style=flat" alt="handlebar-larry" /> </p>
 
 - 👷 <samp>Fresh Grad with B.Tech in Electrical Engineering (2022-2026) from National Institute of Technology Raipur</samp>
